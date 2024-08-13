@@ -1,0 +1,11 @@
+OlimpiadasCA1/
+│
+├── public/              # Carpeta para el frontend
+│   ├── index.html       # Página principal
+│   ├── style.css        # Archivo de estilos CSS
+│   ├── script.js        # Archivo JavaScript
+│   └── images/          # Carpeta para imágenes
+│
+└── src/                 # Carpeta para el backend
+    ├── main.cpp         # Archivo principal de C++
+    └── data.json        # Datos de ejemplo para los partidos

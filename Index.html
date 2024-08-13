@@ -1,14 +1,42 @@
-<DOCTYPEhtml>
-<html lang = "es">
+<!DOCTYPE html>
+<html lang="es">
 <head>
-    <meta Charset ="UTF-8">
-    <meta name ="viewport" content ="width = device-width, in , tial-scale = 10">
-    <title> Mi primera página Web, probando nuevas cosas, aqui les voy a mostrar algo MUY INTERESANTE</title>
-    <link rel="Stylesheet"href="StylesCSS">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olimpiadas CA1</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hola gente de ka olimpiada les estaremos resumiendo o hablando de lo que pasa en el torneo</h1>
-    <h2>El equipo rojo nadie salio campeón esta temporada</h2>
-    <script src="Script.js"></script>
+    <header>
+        <h1>Olimpiadas CA1</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Resultados</a></li>
+                <li><a href="#">Estadísticas</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="agenda">
+            <h2>Agenda - Lunes 12 de Agosto de 2024</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Hora</th>
+                        <th>Partido</th>
+                        <th>Resultado</th>
+                    </tr>
+                </thead>
+                <tbody id="match-table">
+                    <!-- Los datos se cargarán dinámicamente -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Olimpiadas CA1. Todos los derechos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
